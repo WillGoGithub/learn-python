@@ -27,6 +27,9 @@ print(colors[4:])
 print('\nPrint a slice, from the 4th from the end (but not the last item):')
 print(colors[-4:-1])
 
+print('\nPrint a slice, and skip 1 per each:')
+print(colors[::2])
+
 colors.reverse()
 print(colors)
 
